@@ -1,7 +1,4 @@
 function playRound(playerSelection, computerSelection) {
-  playerSelection = playerSelection.toLowerCase();
-  computerSelection = computerSelection.toLowerCase();
-
   if (!["rock", "paper", "scissors"].includes(playerSelection)) {
     return "Invalid input. Please choose 'rock', 'paper', or 'scissors'.";
   }
